@@ -79,7 +79,7 @@ const LiveAi = () => {
                   <HiOutlineSpeakerWave />
                 </span>
               </div>
-              <div className="flex flex-col   gap-6 ">
+              <div className="flex flex-col   xl:gap-16 max-sm:gap-6 lg:gap-6 ">
                 {/* card 2 */}
 
 
