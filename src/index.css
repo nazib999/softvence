@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body{
+    @apply bg-gradient-to-r to-[rgba(255,111,185,.1)] from-[rgba(103,151,255,.1)] min-h-[100vh]
+
+}
+@utility wrapper{
+    @apply max-w-[1440px] mx-auto lg:px-3
+}
+.bg-img{
+    background-image: url(./assets/noise.png);
+    background-position: center;
+    background-size: cover;
+}
+button{
+    cursor: pointer;
+}
